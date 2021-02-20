@@ -1,0 +1,14 @@
+// $colorW: white;
+
+@mixin change(){
+    transform: translateX(25%);
+
+}
+
+img {
+    &:hover{
+        @include change();
+        color:$colorW;
+
+    }
+}
